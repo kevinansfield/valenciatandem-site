@@ -1,0 +1,54 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "cover";
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/*
+ * Custom elements
+ */
+
+#mc_embed_signup {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.input-group-btn .btn {
+  padding-top: 7px;
+}
+
+.cover-container {
+  margin-top: -8%;
+}
+
+@media (min-width: 768px) {
+  .cover-container {
+    margin-top: auto;  
+  }
+}
