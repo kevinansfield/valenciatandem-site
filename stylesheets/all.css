@@ -6737,11 +6737,7 @@ body {
 .input-group-btn .btn {
   padding-top: 7px; }
 
-/* line 46, /Users/kevinansfield/Dropbox/code/middleman/valenciatandem/source/stylesheets/all.scss */
-.cover-container {
-  margin-top: -8%; }
-
 @media (min-width: 768px) {
-  /* line 51, /Users/kevinansfield/Dropbox/code/middleman/valenciatandem/source/stylesheets/all.scss */
+  /* line 47, /Users/kevinansfield/Dropbox/code/middleman/valenciatandem/source/stylesheets/all.scss */
   .cover-container {
-    margin-top: auto; } }
+    margin-top: -8%; } }
