@@ -15,3 +15,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem "bootstrap-sass", require: false
 gem 'middleman-autoprefixer'
+gem 'middleman-deploy', '~> 0.3.0'
